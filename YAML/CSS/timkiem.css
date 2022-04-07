@@ -1,0 +1,16 @@
+﻿
+.txtTim {
+    margin-top: 120px;
+    margin-left: 370px;
+    margin-bottom: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid;
+    outline: none;
+    text-align: center;
+}
+.tim{
+    height: 40px;
+    width: 40px;
+}

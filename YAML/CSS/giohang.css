@@ -1,0 +1,86 @@
+﻿body {
+}
+
+.gvGioHang {
+    margin-top: 150px;
+    margin-left: 70px;
+}
+.spGioHang{
+    
+    width:100px;
+    margin-left: 30px;
+}
+.Chitiet {
+    font-family: Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.Chitietxoa {
+
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    outline: none;
+    border-color: transparent;
+    background-color: white;
+}
+.Chitietxoa:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+.Chitietdongia {
+    padding-left: 30px;
+    font-family: Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.Chitiettensp {
+
+    font-family: Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.Chitietmasp{
+  
+}
+.Chitietstt{
+   
+}
+.Chitietthanhtien{
+    
+}
+.txtSL {
+    height: 25px;
+    width:25px;
+    margin-left: 40px;
+    text-align: center;
+}
+.dieukhien{
+    display: flex;
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+.nutdieukhien {
+    width: 150px;
+    padding: 10px 10px;
+    cursor: pointer;
+    display: block;
+    background: black;
+    color: whitesmoke;
+    font-weight: bold;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+    .nutdieukhien:hover {
+        cursor: pointer;
+        opacity: 70%;
+    }
+.tongtien{
+    margin-left: 850px;
+    margin-top: 20px;
+}
+.none{
+    margin-top: 100px;
+    margin-left: 200px;
+
+}

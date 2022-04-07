@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	margin: 70px auto;
+	text-align: center;
+	font-family: arial;
+    padding-top: 70px;
+}
+#modau{
+    float: left;
+    width: 500px;
+    margin-left: 40px;
+    
+}
+
+
+#hinh1{
+    float: left;
+    margin-left: 40px;
+    margin-top: -30px;
+}
+
+#hinh1 {
+    animation: fade 0.8s forwards;
+    animation-timing-function: ease-out;
+  }
+
+@keyframes fade {
+    from{transform: translateX(100%); opacity: 0;}
+    to{transform: translateX(0);opacity: 1;}
+  }
+  @-webkit-keyframes fade {
+    from{transform: translateX(100%); opacity: 0;}
+    to{transform: translateX(0);opacity: 1;}
+  }
+img#anhgioithieu{
+    width: 600px;
+}
+#tongquan{
+    float: left;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 700px;
+
+}
+h3{
+	margin: 0px auto;
+	text-align: center;
+	padding-top: 10px;
+}
+section#gioithieu{
+	width: 1220px;
+	margin: 0px auto;
+    font-size: 20px;
+}
+section#gioithieu p{
+	padding-top: 20px;
+}
+ol li{
+	padding-top: 10px;
+}
+ol li b{
+	color: #0816B1;
+}
+
+img#anhgioithieu2{
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 90%;
+    
+}
+img#anhgioithieu3{
+    width: 400px;
+    margin-top: 100px;
+    float: left;
+}
+#ketbai{
+    margin-bottom: 40px;
+}

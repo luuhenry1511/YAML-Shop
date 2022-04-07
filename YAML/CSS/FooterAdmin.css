@@ -1,0 +1,44 @@
+﻿footer {
+    width: 1263px;
+    margin: auto;
+    clear: both;
+    float: none;
+    background-color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*content footer */
+.foot {
+    display: flex;
+    margin-left: 40px;
+}
+
+.it {
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+    .it li {
+        list-style: none;
+        padding: 10px 0px 5px 5px;
+    }
+
+        .it li a {
+            text-decoration: none;
+            color: white;
+            width: 1000px;
+        }
+
+
+/*hết content */
+footer pre {
+    color: aliceblue;
+    font-family: cambria;
+    font-size: 10px;
+}
+
+footer img {
+    float: right;
+    width: 100px;
+}

@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="YAML.MasterPage" %>
+
+<%@ Register Src="~/UserControl/header.ascx" TagPrefix="uc1" TagName="header" %>
+<%@ Register Src="~/UserControl/footer.ascx" TagPrefix="uc1" TagName="footer" %>
+
+
+
+<!DOCTYPE html>
+
+<html>
+    <head runat="server">
+        <meta charset="utf-8">
+        
+        <link rel="shortcut icon" type="image/png" href="Image/Logo.PNG"/>
+        <link rel="stylesheet" href="CSS/trangchu.css" type="text/css">
+        <link rel="stylesheet" href="CSS/menu.css" type="text/css">	
+        <link rel="stylesheet" href="CSS/footer.css" type="text/css">	
+        <script src="Scr/slide.js"></script>
+     
+        </head>
+        <body runat="server">
+            <form runat="server">
+        <header>
+            
+
+        </header>
+                <uc1:header runat="server" ID="header" />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+           <!-- <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" Font-Size="0.8em" PathSeparator=" / ">
+                <CurrentNodeStyle ForeColor="#333333" />
+                <NodeStyle Font-Bold="True" ForeColor="#666666" />
+                <PathSeparatorStyle Font-Bold="True" ForeColor="#1C5E55" />
+                <RootNodeStyle Font-Bold="True" ForeColor="#1C5E55" />
+            </asp:SiteMapPath> -->
+                
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+           <!-- <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1"></asp:Menu> -->
+        <footer>
+            <uc1:footer runat="server" ID="footer" />
+        </footer>
+                </form>
+</body>  
+</html>

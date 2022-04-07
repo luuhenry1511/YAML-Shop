@@ -1,0 +1,174 @@
+*{
+    margin:0px;
+    padding: 0px;;
+}
+div#dangnhap {
+    margin: 200px auto auto 100px;
+    width: 900px;
+    height: 350px;
+    padding: 30px;
+    display: flex;
+}
+/*.box{position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 400px;
+    padding: 40px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);;
+    border-radius: 10px;}
+    .box .inputbox{
+        position: relative;
+    }
+    .box h2{
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 20px;
+    
+    }
+    .box .inputbox input{
+        width: 100%;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #fff;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1px solid #fff;
+        outline: none;
+        background: transparent;
+    }
+    
+    .box .inputbox label{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #fff;
+        pointer-events: none;
+        transform: .5s;
+    }
+    .box .inputbox input:focus ~ label,
+    .box .inputbox input:valid ~ label{
+        top: -18px;
+        left: 0;
+        color: #03a9f4;
+        font-size: 12px;
+    } */
+.input-group{
+    top:180px;
+    /*position: absolute;*/
+    width: 400px;
+    height: 100%;
+} 
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top:0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    /* background: linear-gradient(to right, #ff105f, #ffad06);*/
+    background: black;
+    color: whitesmoke;
+    font-weight: bold;
+    border:0;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+}
+                            .submit-btn:hover{
+                                opacity: 70%;
+                            }
+.input-group a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+
+}
+.input-group p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* chuẩn bị đăng ký*/
+    div#dangnhap div {
+        width: 400px;
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+    p#title{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a {text-decoration: none;
+       clear:both;
+    }
+    #Quenmk{
+        clear:both;
+    }
+    .Vali{
+        float:right;
+        font-size: 2px;
+        margin-top:-10px;
+        margin-bottom: 10px;
+    }
+    .input-group label{
+        font-size:17px;
+    }
+#dangky {
+    margin-left: 30px;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left:30px;
+}
+.dk {
+    width: 260px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: black;
+    color: whitesmoke;
+    font-weight: bold;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.dk:hover {
+    opacity: 70%;
+}
+.lblkt {
+    width: 260px;
+    padding: 10px 30px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    outline: none;
+}
